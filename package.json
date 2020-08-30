@@ -1,0 +1,22 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "a command line application that allows the user a quick and easy generation of a project README to get started quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOCECODE/READMEGENERATOR.git"
+  },
+  "author": "Jose Ulices Perez Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOCECODE/READMEGENERATOR/issues"
+  },
+  "homepage": "https://github.com/JOCECODE/READMEGENERATOR#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
