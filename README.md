@@ -1,5 +1,7 @@
 # READMEGENERATOR
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
 ## Table Of Contents
 
 1. [User-Demo](#User-Demo)
@@ -39,8 +41,6 @@ As a web developer I want a quick way to generate a README file to include for m
   - Using the _index.js_ as a an entry point then running `node index.js` on the terminal will start the application. The application starts by asking "What is the title of your project?" in which will name the (Project title).md and add to the title of the file. It follows a series of more questions and upon completion displays a success message stating the file has been created. The new file can now be used as a readme for your project.
 
 ## License
-
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 The [MIT](https://choosealicense.com/licenses/mit/) License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 
