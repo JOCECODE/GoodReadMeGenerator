@@ -11,6 +11,14 @@
 
 ## User-Demo
 
+[![A thumbnail of the User demo video](http://img.youtube.com/vi/iBMBLGy10Ro/0.jpg)](http://www.youtube.com/watch?v=iBMBLGy10Ro "Click to watch User Demo")
+
+Screenshots:
+![Screenshots](</screenshots/Screenshots(2).png?raw=true> "Screenshot Of User Demo")
+![Screenshots](</screenshots/Screenshots(3).png?raw=true> "Screenshot Of User Demo")
+`A New Markdown file with the Title of the project as the name is then created!`
+![Screenshots](</screenshots/Screenshots(4).png?raw=true> "Screenshot Of User Demo")
+
 ## Description
 
 This is a command-line application that dynamically generates a professional README (Project Title).md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
