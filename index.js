@@ -1,7 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const markdown = require("./utils/generateMarkdown");
-let licenseDes = "";
+
+// ARRAY FOR QUESTIONS THE PROMPT IS GOING TO DISPLAY
 const questions = [
   "What is your email address?",
   "What is the title of your project?",
@@ -14,6 +15,7 @@ const questions = [
   "Tests instructions:",
   "What's your GitHub username?",
 ];
+// ARRAY CONTAINING LICENSE CHOICES FROM PROMPT
 const licenseChoices = ["MIT", "GPLv3", "AGPL"];
 inquirer
   .prompt([
@@ -64,6 +66,7 @@ inquirer
       message: questions[0],
     },
   ])
+  // PASSING IN userResponse TO INITIALIZE generateMarkdown
   .then((userResponse) => {
     const data = markdown.generateMarkdown(userResponse);
     fs.writeFile(`${userResponse.title}.md`, data, function () {
