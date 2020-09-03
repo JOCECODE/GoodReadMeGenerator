@@ -15,7 +15,6 @@ const questions = [
   "What's your GitHub username?",
 ];
 const licenseChoices = ["MIT", "GPLv3", "AGPL"];
-// PROMPT SEQUENCE TO TAKE IN USER INPUT
 inquirer
   .prompt([
     {
